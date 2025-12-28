@@ -1,37 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Братишка, проснись!</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 20px;
-            font-family: 'Arial Black', Arial, sans-serif;
-            color: #FFD700;
-            text-shadow: 2px 2px 4px black;
-            background-image: url('https://i.pinimg.com/736x/07/3c/68/073c680726d0f00e737d8266edb34661.jpg');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            min-height: 100vh;
-            line-height: 1.6;
-        }
-        .content {
-            background: rgba(0,0,0,0.8);
-            padding: 40px;
-            border-radius: 15px;
-            max-width: 900px;
-            margin: 0 auto;
-            box-shadow: 0 0 30px rgba(255,215,0,0.3);
-        }
-        h1 { font-size: 2.5em; text-align: center; margin-bottom: 30px; }
-        p { font-size: 1.3em; margin-bottom: 20px; }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <audio autoplay loop style="display:none;">
-        <source src="https://fine.sunproxy.net/file/bGRENG90Z3Q2emVoRUphWXpRRHhBN1FGRGxBdUttQTMxK2oyWlpGc1VWUHd6aktndHBQUkExZWpiVitLdTRJejVkYWFjcEN5dCsxTGhOQzBkWndNTk9peGVGNWRqY1FSTHJybkthckRHdGs9/na_sluchaj_vazhnyh_peregovorov_-_epichnaya_(SkySound.cc).mp3" type="audio/mpeg">
-    </audio>
     <div class="content">
         <h1>Братишка, проснись!</h1>
         <p>Прямо сейчас ты стоишь у подножия Горы своей судьбы — или на спине пробуждающегося дракона, готового взмыть в небо. Гемблинг пожирает твои монеты, как голодный демон из древних легенд, короткие видео крадут твой ци, как воры в тумане Шанхая. Но ты не жалкий крестьянин! Ты воин Поднебесной, наследник императоров. Разорви эти шелковые цепи волей стали и стань драконом — могучим, богатым, фокусированным, чьи крылья затмят солнце!</p>
@@ -40,5 +15,11 @@
         <p>Махатма Ганди учил: «Будь ты сам тем изменением, которое хочешь видеть в мире». Хочешь сокровищ? Перестань кормить демонов гемблинга. Хочешь мощи? Замени видео на полёт дракона к вершинам. Конфуций мудро сказал: «Выбери работу, которую любишь, и тебе не придется работать ни дня в своей жизни». Каждый день — битва на полях Поднебесной, и ты побеждаешь, выбирая путь гармонии. Боль отказа? Это огонь, куящий твой меч. Слабость? Мираж в пустыне Гоби. Ты рождён править небесами!</p>
         <p>Винс Ломбарди рычал: «Победители никогда не сдаются, а сдающиеся никогда не побеждают». А древняя китайская мудрость добавляет: «Тот, кто стоит на вершине горы, не наслаждается там покоем — он смотрит на новые вершины». Ебашь, братишка! Разожги пламя дракона, сожги мосты к былому и взлети к звёздам Империи! Ты — легенда. Докажи это миру. Сейчас!</p>
     </div>
+
+    <audio id="bgmusic" loop preload="auto">
+        <source src="https://fine.sunproxy.net/file/bGRENG90Z3Q2emVoRUphWXpRRHhBN1FGRGxBdUttQTMxK2oyWlpGc1VWUHd6aktndHBQUkExZWpiVitLdTRJejVkYWFjcEN5dCsxTGhOQzBkWndNTk9peGVGNWRqY1FSTHJybkthckRHdGs9/na_sluchaj_vazhnyh_peregovorov_-_epichnaya_(SkySound.cc).mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
 </body>
 </html>
